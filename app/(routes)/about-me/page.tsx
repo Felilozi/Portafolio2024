@@ -8,16 +8,19 @@ import TransitionPage from "@/components/transition-page";
 
 
 const PageAboutMe = () => {
-    return(
+    return (
         <>
-            <TransitionPage/>
+            <TransitionPage />
             <ConteinerPage >
-                From Chindren
-                <Avatar/> 
+                <Avatar />
+                <h1 className="bg-black text-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10">Toda mi{' '} 
+                    <span className='fond-bold text-secondary '>trayectoria profesional</span>
+
+                </h1>
             </ConteinerPage>
-            
+
         </>
-        );
+    );
 }
 
 export default PageAboutMe;
