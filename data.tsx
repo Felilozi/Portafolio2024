@@ -1,9 +1,9 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin,  Rss, Crop, Pencil, Computer, Book, Rocket, Speech,Instagram } from "lucide-react";
 
 export const socialNetworks = [
     {
         id: 1,
-        logo: <Youtube size={30} strokeWidth={1} />,
+        logo: <Instagram size={30} strokeWidth={1} />,
         src: "#!",
     },
     {
@@ -11,21 +11,21 @@ export const socialNetworks = [
         logo: <Linkedin size={30} strokeWidth={1} />,
         src: "#!",
     },
+    // {
+    //     id: 3,
+    //     logo: <Twitter size={30} strokeWidth={1} />,
+    //     src: "#!",
+    // },
     {
         id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 4,
         logo: <Rss size={30} strokeWidth={1} />,
         src: "#!",
     },
-    {
-        id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
-        src: "#!",
-    },
+    // {
+    //     id: 4,
+    //     logo: <Twitch size={30} strokeWidth={1} />,
+    //     src: "#!",
+    // },
 ];
 
 
@@ -50,47 +50,47 @@ export const itemsNavbar = [
     },
     {
         id: 4,
-        title: "Target",
+        title: "Portafolio",
         icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
-        link: "/portfolio",
+        link: "/portafolio",
     },
-    {
-        id: 5,
-        title: "Home",
-        icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-        link: "/testimonials",
-    },
+    // {
+    //     id: 5,
+    //     title: "Home",
+    //     icon: <Speech size={25} color="#fff" strokeWidth={1} />,
+    //     link: "/testimonials",
+    // },
 ];
 
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Frontend Developer",
-        subtitle: "TechSolutions",
-        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-        date: "Nov 2023 ",
+        title: "Frontend Developer - HTML, CSS, SAS",
+        subtitle: "Mi primera pagina CreArte ",
+        description: "He creado esta página para mi cuñada, una talentosa artesana que trabaja con diversos materiales, encontrarás sus piezas únicas y elaboradas con mucha dedicación",
+        date: "Apr 2023 ",
     },
     {
         id: 2,
-        title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
+        title: "Frontend Develope - React ",
+        subtitle: "React E-Commerce Glamur!",
+        description: "Un proyecto innovador de tienda de ropa en línea, desarrollado durante mi segundo curso de React. Permite la compra de productos y su almacenamiento en una base de datos Firebase. Aunque es un proyecto básico, me brindó un valioso aprendizaje al fusionar creatividad y tecnología.",
+        date: "Jul 2023",
     },
     {
         id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
+        title: "Frontend Develope - React",
+        subtitle: "To-do-li",
+        description: "Desarrollé una lista de tareas básica en React, aprovechando recursos como YouTube y otros tutoriales. Este proyecto, realizado de manera autodidacta, me permitió profundizar en mis conocimientos de React y mejorar mis habilidades en el desarrollo web. Fue una experiencia enriquecedora y fundamental para mi aprendizaje.",
+        date: "Jul 2019",
     },
-    {
-        id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
-    },
+    // {
+    //     id: 4,
+    //     title: "Backend-app",
+    //     subtitle: "WebWizards Inc.",
+    //     description: "Bienvenido a ShopEase, una tienda online básica que desarrollé durante mi curso de backend. La API muestra productos desde una base SQL como MongoDB, permite iniciar y cerrar sesión con Google o Git, y hashea las contraseñas. Al finalizar la compra, se envía un correo. Actualmente en periodo de prueba. ",
+    //     date: "Mar 2018",
+    // },
 ]
 
 export const dataCounter = [
@@ -211,47 +211,47 @@ export const dataPortfolio = [
     }
 ];
 
-export const dataTestimonials = [
-    {
-        id: 1,
-        name: "George Snow",
-        description:
-            "¡Increíble plataforma! Los testimonios aquí son genuinos y me han ayudado a tomar decisiones informadas. ¡Altamente recomendado!",
-        imageUrl: "/profile1.png",
-    },
-    {
-        id: 2,
-        name: "Juan Pérez",
-        description:
-            "Me encanta la variedad de testimonios disponibles en esta página. Es inspirador ver cómo otras personas han superado desafíos similares a los míos. ¡Gracias por esta invaluable fuente de motivación!",
-        imageUrl: "/profile2.png",
-    },
-    {
-        id: 3,
-        name: "María García",
-        description:
-            "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!",
-        imageUrl: "/profile3.png",
-    },
-    {
-        id: 4,
-        name: "Laura Snow",
-        description:
-            "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios.",
-        imageUrl: "/profile4.png",
-    },
-    {
-        id: 5,
-        name: "Carlos Sánchez",
-        description:
-            "Una joya en la web. Los testimonios son fáciles de encontrar y están bien organizados. ¡Definitivamente mi destino número uno cuando necesito referencias confiables!",
-        imageUrl: "/profile5.png",
-    },
-    {
-        id: 6,
-        name: "Antonio Martínez",
-        description:
-            "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
-        imageUrl: "/profile6.png",
-    },
-];
+// export const dataTestimonials = [
+//     {
+//         id: 1,
+//         name: "George Snow",
+//         description:
+//             "¡Increíble plataforma! Los testimonios aquí son genuinos y me han ayudado a tomar decisiones informadas. ¡Altamente recomendado!",
+//         imageUrl: "/profile1.png",
+//     },
+//     {
+//         id: 2,
+//         name: "Juan Pérez",
+//         description:
+//             "Me encanta la variedad de testimonios disponibles en esta página. Es inspirador ver cómo otras personas han superado desafíos similares a los míos. ¡Gracias por esta invaluable fuente de motivación!",
+//         imageUrl: "/profile2.png",
+//     },
+//     {
+//         id: 3,
+//         name: "María García",
+//         description:
+//             "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!",
+//         imageUrl: "/profile3.png",
+//     },
+//     {
+//         id: 4,
+//         name: "Laura Snow",
+//         description:
+//             "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios.",
+//         imageUrl: "/profile4.png",
+//     },
+//     {
+//         id: 5,
+//         name: "Carlos Sánchez",
+//         description:
+//             "Una joya en la web. Los testimonios son fáciles de encontrar y están bien organizados. ¡Definitivamente mi destino número uno cuando necesito referencias confiables!",
+//         imageUrl: "/profile5.png",
+//     },
+//     {
+//         id: 6,
+//         name: "Antonio Martínez",
+//         description:
+//             "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
+//         imageUrl: "/profile6.png",
+//     },
+// ];
