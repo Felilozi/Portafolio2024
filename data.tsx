@@ -72,14 +72,14 @@ export const dataAboutPage = [
     },
     {
         id: 2,
-        title: "Frontend Develope - React ",
+        title: "Frontend Develope - React - JS ",
         subtitle: "React E-Commerce Glamur!",
         description: "Un proyecto innovador de tienda de ropa en línea, desarrollado durante mi segundo curso de React. Permite la compra de productos y su almacenamiento en una base de datos Firebase. Aunque es un proyecto básico, me brindó un valioso aprendizaje al fusionar creatividad y tecnología.",
         date: "Jul 2023",
     },
     {
         id: 3,
-        title: "Frontend Develope - React",
+        title: "Frontend Develope - React - JS",
         subtitle: "To-do-li",
         description: "Desarrollé una lista de tareas básica en React, aprovechando recursos como YouTube y otros tutoriales. Este proyecto, realizado de manera autodidacta, me permitió profundizar en mis conocimientos de React y mejorar mis habilidades en el desarrollo web. Fue una experiencia enriquecedora y fundamental para mi aprendizaje.",
         date: "Jul 2019",
@@ -96,32 +96,33 @@ export const dataAboutPage = [
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 10,
-        text: "Años de experiencia",
+        endCounter: 3,
+        text: "Experiencia en programación",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 1,
-        endCounter: 80,
-        text: "Clientes satisfechos",
-        lineRight: true,
-        lineRightMobile: false,
-    },
-    {
-        id: 2,
-        endCounter: 220,
+        endCounter: 5,
         text: "Proyectos finalizados",
         lineRight: true,
         lineRightMobile: true,
     },
     {
-        id: 3,
-        endCounter: 30,
-        text: "Premios ganadores",
-        lineRight: false,
-        lineRightMobile: false,
+        id: 2,
+        endCounter: 7,
+        text: "Certificaciones completadas",
+        lineRight: true,
+        lineRightMobile: true,
     },
+    {
+        id: 3,
+        endCounter: 4,
+        text: "Idiomas hablados",
+        lineRight: true,
+        lineRightMobile: true,
+    },
+
 ];
 
 export const serviceData = [

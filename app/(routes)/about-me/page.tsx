@@ -2,6 +2,8 @@
 
 import Avatar from "@/components/avatar";
 import ConteinerPage from "@/components/container";
+import CounterServices from "@/components/counter-sevices";
+import TimeLine from "@/components/time-line";
 import TransitionPage from "@/components/transition-page";
 
 
@@ -13,14 +15,15 @@ const PageAboutMe = () => {
             <TransitionPage />
             <ConteinerPage >
                 <Avatar />
-                <h1 className="bg-black text-2xl leading-tight text-center md:text-left md:text-5xl md:mt-10">Toda mi{' '} 
-                    <span className='fond-bold text-secondary '>trayectoria profesional</span>
-
+                <h1 className=" text-4xl leading-tight text-center md:text-left md:text-3xl md:mt-10">Toda mi{' '}
+                    <span className='fond-bold text-secondary'>trayectoria profesional</span>
                 </h1>
+                <CounterServices />
+                <TimeLine />
             </ConteinerPage>
 
         </>
-    );
+    )
 }
 
 export default PageAboutMe;
