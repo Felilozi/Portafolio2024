@@ -29,11 +29,11 @@ const Introduction = () => {
                     <div className='flex item-center justify-center gap-2 '  >
                         <Link
                             href='https://github.com/Felilozi'
-                            className='px-3 py-2 my-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50'>Ver Proyectos
+                            className='px-3 py-2 my-2 transition-all border-2 cursor-pointer  border-secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50'>Ver Proyectos
                         </Link>
                         <Link
-                            href='/projects'
-                            className='px-3 py-2 my-2 transition-all border-2 cursor-pointer text-secondary border-secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50'>Contacta conmigo
+                            href='/contacto'
+                            className='px-3 py-2 my-2 transition-all border-2 cursor-pointer  border-secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50'>Contacta conmigo
                         </Link>
 
                     </div>

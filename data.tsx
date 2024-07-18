@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin,  Rss, Crop, Pencil, Computer, Book, Rocket, Speech,Instagram } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Rss, Crop, Pencil, Computer, Book, Rocket, SmilePlus, Instagram } from "lucide-react";
 
 export const socialNetworks = [
     {
@@ -54,21 +54,22 @@ export const itemsNavbar = [
         icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
         link: "/portafolio",
     },
-    // {
-    //     id: 5,
-    //     title: "Home",
-    //     icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-    //     link: "/testimonials",
-    // },
+    {
+        id: 5,
+        title: "Otras-Habilidades ",
+        icon: <SmilePlus size={25} color="#fff" strokeWidth={1} />,
+        link: "/habilidades",
+    },
+    
 ];
 
 export const dataAboutPage = [
     {
         id: 1,
-        title: "Frontend Developer - HTML, CSS, SAS",
-        subtitle: "Mi primera pagina CreArte ",
+        title: "Frontend Developer - HTML, CSS, SASS",
+        subtitle: "CreArte ",
         description: "He creado esta página para mi cuñada, una talentosa artesana que trabaja con diversos materiales, encontrarás sus piezas únicas y elaboradas con mucha dedicación",
-        date: "Apr 2023 ",
+        date: "Apr 2022 ",
     },
     {
         id: 2,
@@ -79,18 +80,19 @@ export const dataAboutPage = [
     },
     {
         id: 3,
+        title: "Backend-app",
+        subtitle: "API-REST",
+        description: "Desarrollé una API como parte de un curso integral de backend. La API permite la gestión de usuarios, productos y pedidos, integrando funcionalidades avanzadas como autenticación con JWT , manejo de archivos con Multer, y persistencia de datos con MongoDB y Mongoose. Incluye soporte para sesiones y cookies, y emplea Websockets para actualizaciones en tiempo real. Actualmente en fase de pruebas.",
+        date: "Mar 2024",
+    },
+    {
+        id: 4,
         title: "Frontend Develope - React - JS",
         subtitle: "To-do-li",
         description: "Desarrollé una lista de tareas básica en React, aprovechando recursos como YouTube y otros tutoriales. Este proyecto, realizado de manera autodidacta, me permitió profundizar en mis conocimientos de React y mejorar mis habilidades en el desarrollo web. Fue una experiencia enriquecedora y fundamental para mi aprendizaje.",
-        date: "Jul 2019",
+        date: "Jul 2024",
     },
-    // {
-    //     id: 4,
-    //     title: "Backend-app",
-    //     subtitle: "WebWizards Inc.",
-    //     description: "Bienvenido a ShopEase, una tienda online básica que desarrollé durante mi curso de backend. La API muestra productos desde una base SQL como MongoDB, permite iniciar y cerrar sesión con Google o Git, y hashea las contraseñas. Al finalizar la compra, se envía un correo. Actualmente en periodo de prueba. ",
-    //     date: "Mar 2018",
-    // },
+
 ]
 
 export const dataCounter = [
@@ -148,51 +150,52 @@ export const serviceData = [
     },
     {
         icon: <Rocket />,
-        title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        title: "Analítica de Datos",
+        description: "Análisis de datos estratégico para decisiones empresariales informadas y efectivas.",
     },
 ];
 
 export const dataPortfolio = [
+
     {
         id: 1,
-        title: "Web Pro",
-        image: "/image-1.jpg",
-        urlGithub: "#!",
+        title: "Glamur",
+        image: "/image-1.png",
+        urlGithub: "#!", 
         urlDemo: "#!",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
-        image: "/image-2.jpg",
+        title: "CreArte  ",
+        image: "/image-2.png",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 3,
-        title: "Estrategias Web",
-        image: "/image-3.jpg",
+        title: "To-do-list box ",
+        image: "/image-3.png",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 4,
-        title: "Ideas Creativas",
-        image: "/image-4.jpg",
+        title: "Dulce Éxtasis",
+        image: "/image-4.png",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 5,
-        title: "Webs Impactantes",
-        image: "/image-5.jpg",
+        title: "Lista de tarea",
+        image: "/image-5.png",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
         id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
+        title: "Backend javascript",
+        image: "/image-6.png",
         urlGithub: "#!",
         urlDemo: "#!",
     },
@@ -212,47 +215,81 @@ export const dataPortfolio = [
     }
 ];
 
-// export const dataTestimonials = [
-//     {
-//         id: 1,
-//         name: "George Snow",
-//         description:
-//             "¡Increíble plataforma! Los testimonios aquí son genuinos y me han ayudado a tomar decisiones informadas. ¡Altamente recomendado!",
-//         imageUrl: "/profile1.png",
-//     },
-//     {
-//         id: 2,
-//         name: "Juan Pérez",
-//         description:
-//             "Me encanta la variedad de testimonios disponibles en esta página. Es inspirador ver cómo otras personas han superado desafíos similares a los míos. ¡Gracias por esta invaluable fuente de motivación!",
-//         imageUrl: "/profile2.png",
-//     },
-//     {
-//         id: 3,
-//         name: "María García",
-//         description:
-//             "Excelente recurso para obtener opiniones auténticas sobre diferentes productos y servicios. Me ha ayudado mucho en mis compras en línea. ¡Bravo por este sitio!",
-//         imageUrl: "/profile3.png",
-//     },
-//     {
-//         id: 4,
-//         name: "Laura Snow",
-//         description:
-//             "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios.",
-//         imageUrl: "/profile4.png",
-//     },
-//     {
-//         id: 5,
-//         name: "Carlos Sánchez",
-//         description:
-//             "Una joya en la web. Los testimonios son fáciles de encontrar y están bien organizados. ¡Definitivamente mi destino número uno cuando necesito referencias confiables!",
-//         imageUrl: "/profile5.png",
-//     },
-//     {
-//         id: 6,
-//         name: "Antonio Martínez",
-//         description:
-//             "¡Fantástico recurso para aquellos que buscan validación antes de tomar decisiones importantes! Los testimonios aquí son veraces y realmente útiles. ¡Gracias por simplificar mi proceso de toma de decisiones!",
-//         imageUrl: "/profile6.png",
-//     },
-// ];
+export const dataExtra = [
+    {
+        id: 1,
+        name:"Microsoft Excel",
+        description:
+            "Experto en análisis de datos, creación de gráficos y tablas dinámicas, y uso avanzado de fórmulas y funciones.",
+        imageUrl: "/excel.png",
+    },
+    {
+        id: 2,
+        name:"Microsoft Word",
+        description:
+            "Dominio en la creación y edición de documentos, incluyendo formatos avanzados, estilos y plantillas.",
+        imageUrl: "/word.png",
+    },
+    {
+        id: 3,
+        name: "Microsoft PowerPoint",
+        description:
+            "Habilidad para diseñar presentaciones profesionales con transiciones, animaciones y gráficos avanzados.",
+        imageUrl: "/powerpoint.png",
+    },
+    {
+        id: 4,
+        name:"Microsoft Publisher",
+        description:
+            "Capacidad para crear publicaciones impresas y digitales, como boletines, folletos y tarjetas.",
+        imageUrl: "/publisher.png",
+    },
+    {
+        id: 5,
+        name:"Microsoft SharePoint",
+        description:
+            "Experiencia en la administración y configuración de sitios de SharePoint para colaboración y gestión documental.",
+        imageUrl: "/sharepoint.png",
+    },
+    {
+        id: 6,
+        name:"CorelDRAW",
+        description:
+            "Proficiencia en el diseño gráfico vectorial, creación de logotipos, ilustraciones y material publicitario.",
+        imageUrl: "/coreldraw.png",
+    },
+    {
+        id: 7,
+        name:"Power BI",
+        description: "Experiencia en exportación/importación de bases de datos, filtrado de contenido importante y creación de dashboards interactivos e informes analíticos.",
+        imageUrl: "/powerbi.png",
+    },
+    {
+        id: 8,
+        name:"Canva",
+        description:
+            "Habilidad para diseñar gráficos atractivos y contenido visual para redes sociales, presentaciones y material de marketing.",
+        imageUrl: "/canva.png",
+    },
+    {
+        id: 9,
+        name:"Photoshop",
+        description:
+            "Experiencia en edición y manipulación de imágenes, diseño de gráficos y retoque fotográfico.",
+        imageUrl: "/photoshop.png",
+    },
+    {
+        id: 10,
+        name:"PaintTool SAI",
+        description:
+            "Habilidad en la creación de ilustraciones digitales, dibujos y arte conceptual con herramientas avanzadas.",
+        imageUrl: "/painttool-sai.png",
+    },
+    {
+        id: 11,
+        name:"Adobe Illustrator",
+        description:
+            "Proficiencia en diseño vectorial, creación de ilustraciones detalladas y desarrollo de gráficos escalables.",
+        imageUrl: "/illustrator.png",
+    },
+];
