@@ -7,13 +7,13 @@ interface PortfolioBoxProps {
         title: string
         image: string
         urlGithub: string
-        urlDemo: string
+        
     }
 }
 
 const PortfolioBox = (props: PortfolioBoxProps) => {
     const { data } = props
-    const { id, title, image, urlDemo, urlGithub } = data
+    const { id, title, image, urlGithub } = data
 
     return (
         <div
@@ -36,12 +36,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
                     Github
                 </Link>
 
-                <Link
-                    href={urlDemo}
-                    target="_blank"
-                    className="px-3 p-1 text-sm transition duration-150 rounded-lg bg-secondary hover:bg-secondary/80"
-                > Live demo
-                </Link>
+               
             </div>
         </div>
     );

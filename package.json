@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^2.1.2",
+    "@heroicons/react": "^2.1.5",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.3.0",
+    "emailjs-com": "^3.2.0",
+    "env-cmd": "^10.1.0",
     "framer-motion": "^11.2.6",
     "lucide-react": "^0.376.0",
     "next": "14.2.3",
@@ -21,6 +25,7 @@
     "swiper": "^11.1.5"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

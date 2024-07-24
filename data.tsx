@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Rss, Crop, Pencil, Computer, Book, Rocket, SmilePlus, Instagram } from "lucide-react";
+import { BookText, CodeSquare,Phone ,AtSign ,  Building2 , HomeIcon, UserRound, Linkedin, Rss, Crop, Pencil, Computer, Book, Rocket, SmilePlus, Instagram } from "lucide-react";
 
 export const socialNetworks = [
     {
@@ -161,57 +161,56 @@ export const dataPortfolio = [
         id: 1,
         title: "Glamur",
         image: "/image-1.png",
-        urlGithub: "#!", 
-        urlDemo: "#!",
+        urlGithub: "https://github.com/Felilozi/Glamur", 
+      
     },
     {
         id: 2,
         title: "CreArte  ",
         image: "/image-2.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/Felilozi/CreArte_Lozinski_Felicia",
+       
     },
     {
         id: 3,
         title: "To-do-list box ",
         image: "/image-3.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/Felilozi/Todolist2",
+       
     },
     {
         id: 4,
         title: "Dulce Éxtasis",
         image: "/image-4.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/Felilozi/Chocolateria.java",
+       
     },
     {
         id: 5,
         title: "Lista de tarea",
         image: "/image-5.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/Felilozi/to-do-list",
+      
     },
     {
         id: 6,
         title: "Backend javascript",
         image: "/image-6.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/Felilozi/backendcoder/tree/EntregaFinal",
+       
     },
     {
         id: 7,
         title: "Dark Web ",
         image: "/image-7.jpg",
         urlGithub: "#!",
-        urlDemo: "#!",
     },
     {
         id: 8,
         title: "E-commerce web",
         image: "/image-8.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/Felilozi/Chocolateria",
+        
     }
 ];
 
@@ -292,4 +291,29 @@ export const dataExtra = [
             "Proficiencia en diseño vectorial, creación de ilustraciones detalladas y desarrollo de gráficos escalables.",
         imageUrl: "/illustrator.png",
     },
+];
+
+
+
+
+/*********************** */
+export const dataContacto = [
+    {
+        id: 1,
+        logo: <Building2 />,
+        description:"Villa Madero,Buenos Aries,Argentina ",
+        
+    },
+    {
+        id: 2,
+        logo: <Phone />,
+        description:"(+59) 11-25363944 ",
+    },
+    {
+        id: 3,
+        logo:<AtSign />,
+        description:"felicialozi@hotmail.com",
+    },
+
+
 ];
