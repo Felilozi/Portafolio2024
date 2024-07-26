@@ -7,6 +7,7 @@ import TransitionPage from "@/components/transition-page";
 import Link from 'next/link';
 
 const ServicesPage = () => {
+    
     return (
         <>
             <TransitionPage />
@@ -21,7 +22,7 @@ const ServicesPage = () => {
                     </h1>
                     <p className="mb-3 text-xm text-gray-300 "> Ofrezco servicios de desarrollo web frontend especializados en la creación de sitios web y aplicaciones atractivas y funcionales. Utilizando las últimas tecnologías, diseño interfaces de usuario intuitivas y responsivas que reflejan la identidad de marca de mis clientes y mejoran su presencia en línea.
                     </p>
-                    <Link href='https://www.linkedin.com/in/felicia-lozisnki-silva-76ab1514a/' className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/50 ">Contacta conmigo</Link>
+                    <Link href='/contacto' className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/50 ">Contacta conmigo</Link>
 
                 </div>
                 {/* Slider*/}

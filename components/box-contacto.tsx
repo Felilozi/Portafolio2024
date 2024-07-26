@@ -4,7 +4,7 @@ interface ContactoBoxProps {
     data: {
         id: number,
         logo:JSX.Element,
-        description: string
+        description: string 
 
     }
 }

@@ -1,31 +1,23 @@
-import { BookText, CodeSquare,Phone ,AtSign ,  Building2 , HomeIcon, UserRound, Linkedin, Rss, Crop, Pencil, Computer, Book, Rocket, SmilePlus, Instagram } from "lucide-react";
+import { BookText, CodeSquare,Phone ,Mail  ,  Building2 , HomeIcon, UserRound, Linkedin, Rss, Crop, Pencil, Computer, Book, Rocket, SmilePlus, Instagram } from "lucide-react";
 
 export const socialNetworks = [
     {
         id: 1,
         logo: <Instagram size={30} strokeWidth={1} />,
-        src: "#!",
+        src: process.env.REACT_APP_INSTAGRAM_URL,
     },
     {
         id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
+        src: process.env.REACT_APP_LINKEDIN_URL,
     },
-    // {
-    //     id: 3,
-    //     logo: <Twitter size={30} strokeWidth={1} />,
-    //     src: "#!",
-    // },
+ 
     {
         id: 3,
         logo: <Rss size={30} strokeWidth={1} />,
         src: "#!",
     },
-    // {
-    //     id: 4,
-    //     logo: <Twitch size={30} strokeWidth={1} />,
-    //     src: "#!",
-    // },
+  
 ];
 
 
@@ -311,8 +303,8 @@ export const dataContacto = [
     },
     {
         id: 3,
-        logo:<AtSign />,
-        description:"felicialozi@hotmail.com",
+        logo:<Mail  />,
+        description:"felicia.programa@hotmail.com",
     },
 
 

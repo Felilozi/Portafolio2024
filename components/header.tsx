@@ -19,7 +19,7 @@ const Header = () => {
                 <div className="flex items-center justify-center gap-5">
                 {socialNetworks.map(({logo,src,id})=>(
                     <Link key={id}
-                    href={src}
+                    href={src  || "#!" }
                     target="_blank"
                     className='transition-all duration-300 hover:text-secondary'
                     >

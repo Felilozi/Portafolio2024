@@ -20,7 +20,7 @@ const ContactForm: React.FC = () => {
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        console.log(process.env.NEXT_PUBLIC_REACT_APP_SERVICE_ID); // Añade esto para verificar los datos
+      
         
         emailjs.send(SERVICE_ID, TEMPLATE_ID, formState, USER_ID)
             .then((result) => {
@@ -132,7 +132,7 @@ const ContactForm: React.FC = () => {
                                 <input
                                     id="phoneNumber"
                                     name="phoneNumber"
-                                    type="tel"
+                                    type="namer"
                                     autoComplete="tel"
                                     value={formState.phoneNumber}
                                     onChange={handleChange}
