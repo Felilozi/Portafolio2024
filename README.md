@@ -1,13 +1,16 @@
-Welcome to My Portfolio
-This is a personal project created using Next.js.
+# Welcome to My Portfolio
 
-Getting Started
+This is a personal project created using [Next.js](https://nextjs.org/).
+
+## Getting Started
+
 To view this project locally, follow these steps:
 
-Run the Development Server:
+### Run the Development Server:
 
 Use one of the following commands:
 
+```bash
 npm run dev
 # or
 yarn dev
