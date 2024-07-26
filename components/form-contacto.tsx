@@ -20,6 +20,7 @@ const ContactForm: React.FC = () => {
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+        console.log( USER_ID)
       
         
         emailjs.send(SERVICE_ID, TEMPLATE_ID, formState, USER_ID)
