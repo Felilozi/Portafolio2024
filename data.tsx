@@ -65,7 +65,7 @@ export const dataAboutPage = [
     },
     {
         id: 2,
-        title: "Frontend Develope - React - JS ",
+        title: "Frontend Developer - React - JS ",
         subtitle: "React E-Commerce Glamur!",
         description: "Un proyecto innovador de tienda de ropa en línea, desarrollado durante mi segundo curso de React. Permite la compra de productos y su almacenamiento en una base de datos Firebase. Aunque es un proyecto básico, me brindó un valioso aprendizaje al fusionar creatividad y tecnología.",
         date: "Jul 2023",
@@ -79,7 +79,7 @@ export const dataAboutPage = [
     },
     {
         id: 4,
-        title: "Frontend Develope - React - JS",
+        title: "Frontend Developer - React - JS",
         subtitle: "To-do-li",
         description: "Desarrollé una lista de tareas básica en React, aprovechando recursos como YouTube y otros tutoriales. Este proyecto, realizado de manera autodidacta, me permitió profundizar en mis conocimientos de React y mejorar mis habilidades en el desarrollo web. Fue una experiencia enriquecedora y fundamental para mi aprendizaje.",
         date: "Jul 2024",
@@ -211,7 +211,7 @@ export const dataExtra = [
         id: 1,
         name:"Microsoft Excel",
         description:
-            "Experto en análisis de datos, creación de gráficos y tablas dinámicas, y uso avanzado de fórmulas y funciones.",
+            "Experta en análisis de datos, creación de gráficos y tablas dinámicas, y uso avanzado de fórmulas y funciones.",
         imageUrl: "/excel.png",
     },
     {
