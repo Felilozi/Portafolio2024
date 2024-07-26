@@ -19,6 +19,7 @@ const BoxContacto = (props: ContactoBoxProps) => {
         >
             <h3 className="mb-2 text-xl">{logo}</h3>
             <h3 className="mb-2 text-xl">{description}</h3>
+            
 
 
         </div>

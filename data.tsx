@@ -158,14 +158,14 @@ export const dataPortfolio = [
     },
     {
         id: 2,
-        title: "CreArte  ",
+        title: "CreArte",
         image: "/image-2.png",
         urlGithub: "https://github.com/Felilozi/CreArte_Lozinski_Felicia",
        
     },
     {
         id: 3,
-        title: "To-do-list box ",
+        title: "To-do-list box",
         image: "/image-3.png",
         urlGithub: "https://github.com/Felilozi/Todolist2",
        
