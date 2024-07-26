@@ -1,6 +1,13 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { SERVICE_ID, TEMPLATE_ID, USER_ID } from '@/emailConfig';
+import withReactContent from 'sweetalert2-react-content';
+import Swal from 'sweetalert2';
+
+
+
+const MySwal = withReactContent(Swal);
+
 
 const ContactForm: React.FC = () => {
     const [formState, setFormState] = useState({
@@ -20,12 +27,36 @@ const ContactForm: React.FC = () => {
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        
-      
+
         
         emailjs.send(SERVICE_ID, TEMPLATE_ID, formState, USER_ID)
             .then((result) => {
-                alert('Message Sent Successfully!');
+                let timerInterval: NodeJS.Timeout;
+                MySwal.fire({
+                    title: '¡Éxito!',
+                    html: '¡Mensaje enviado correctamente!',
+                    timer: 2000,
+                    width: '300px',                    
+                    timerProgressBar: true,
+                    icon: 'success',
+                    confirmButtonText: 'Aceptar',
+                    background: '#0b625a',
+                    color: '#fff',
+                    iconColor: '#1cf5e1',
+                    confirmButtonColor: "#f54257",
+                    didOpen: () => {
+                        MySwal.showLoading();
+                        const b = MySwal.getHtmlContainer()?.querySelector('b');
+                        timerInterval = setInterval(() => {
+                            if (b) {
+                                b.textContent = String(MySwal.getTimerLeft());
+                            }
+                        }, 150);
+                    },
+                    willClose: () => {
+                        clearInterval(timerInterval);
+                    }
+                });
                 setFormState({
                     firstName: '',
                     lastName: '',
@@ -36,7 +67,16 @@ const ContactForm: React.FC = () => {
                     message: '',
                 });
             }, (error) => {
-                alert('Failed to Send Message. Try again later.');
+                MySwal.fire({
+                    title: '¡Error!',
+                    text: 'No se pudo enviar el mensaje. Intenta nuevamente más tarde.',
+                    icon: 'error',
+                    confirmButtonText: 'Aceptar',
+                    background: '#0b625a',
+                    color: '#fff',
+                    iconColor: '#1cf5e1',
+                    confirmButtonColor: '#f54257'
+                });
             });
     };
     return (

@@ -22,6 +22,8 @@
     "react-countup": "^6.5.3",
     "react-dom": "^18",
     "react-type-animation": "^3.2.0",
+    "sweetalert2": "^11.12.3",
+    "sweetalert2-react-content": "^5.0.7",
     "swiper": "^11.1.5"
   },
   "devDependencies": {
