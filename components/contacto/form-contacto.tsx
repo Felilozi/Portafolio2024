@@ -152,7 +152,7 @@ const ContactForm: React.FC = () => {
                                         name="country"
                                         value={formState.country}
                                         onChange={handleChange}
-                                        className="h-full rounded-md border-0 bg-transparent text-black bg-none py-1 pl-4 pr-1 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
+                                        className="h-full rounded-md border-0 bg-transparent text-black bg-none py-1 pl-4 pr-1 md:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
                                     >
                                         <option value="AR">AR</option>
                                         <option value="PY">PY</option>

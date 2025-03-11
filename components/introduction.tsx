@@ -31,7 +31,7 @@ const Introduction = () => {
                     <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8 md:justify-start md:gap-10 " >Como desarrolladora frontend con habilidades en diseño gráfico, me especializo en crear experiencias digitales que combinan funcionalidad y atractivo visual.</p>
                     <div className='flex item-center justify-center gap-2 '  >
                         <Link
-                            href= {`${GITHUB_URl ||  "/portafolio"}`}
+                            href= "/proyectos"
                             className='px-3 py-2 my-2 transition-all border-2 cursor-pointer  border-secondary text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50'>Ver Proyectos
                         </Link>
                         <Link
