@@ -1,7 +1,7 @@
 'use client'
 
 import BoxContacto from "@/components/box-contacto";
-import ContactForm from "@/components/form-contacto";
+import ContactForm from "@/components/contacto/form-contacto";
 import TransitionPage from "@/components/transition-page";
 import { dataContacto } from '@/data';
 

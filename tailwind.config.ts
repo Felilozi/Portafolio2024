@@ -9,12 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        secondary: '#f54257',
-        darkBg: '#1cf5e1'
+        secondary: '#EAAE59',
+        darkBg: '#0B625A'
       },      
       backgroundImage: {
         'gradient-cover': 
-          'linear-gradient(90.21deg, rgb(0,169,116) -5.91%, rgb(11, 98, 90) 111.58%)',
+          'linear-gradient(90.21deg, rgb(11, 98, 90)-5.91%, rgb(11, 98, 90) 111.58%)',
       },
     },
   },

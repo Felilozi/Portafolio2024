@@ -5,9 +5,10 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import "./globals.css";
-
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/navbar/navbar";
 import Header from "@/components/header";
+
+
 
 
 const urbanist = Urbanist({ subsets: ["latin"] });
@@ -25,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={urbanist.className}>
+      <body className={`${urbanist.className} flex flex-col min-h-screen`}>
         <Navbar/>
         <Header />
       {children}

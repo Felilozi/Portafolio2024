@@ -1,7 +1,7 @@
 'use client'
 
-import AvatarPortafolio from "@/components/avatar-portafolio";
-import Avatar3 from "@/components/avatar3";
+import AvatarPortafolio from "@/components/avatar/avatar-portafolio";
+import Avatar3 from "@/components/avatar/avatar3";
 import ConteinerPage1 from "@/components/conteiner2";
 
 import PortfolioBox from "@/components/portfolioBox";

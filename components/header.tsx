@@ -7,7 +7,7 @@ import { socialNetworks } from "@/data";
 
 const Header = () => {
     return (
-    <MotionTransition className="absolute z-40 inline-block w-full top-5 md:top-10 px-20" position="bottom">
+    <MotionTransition className=" absolute z-40 inline-block w-full top-5 md:top-10 px-20" position="bottom">
         <header>
             <div className="container justify-between max-w-6xl mx-auto md:flex">
                 <Link href="/">

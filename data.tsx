@@ -1,21 +1,21 @@
-import { BookText, CodeSquare,Phone ,Mail  ,  Building2 , HomeIcon, UserRound, Linkedin, Rss, Crop, Pencil, Computer, Book, Rocket, SmilePlus, Instagram } from "lucide-react";
+import { BookText, CodeSquare,Phone ,Mail  ,Github,  Building2 , HomeIcon, UserRound, Linkedin, Rss, Crop, Pencil, Computer, Book, Rocket, SmilePlus, Instagram } from "lucide-react";
 
 export const socialNetworks = [
     {
         id: 1,
         logo: <Instagram size={30} strokeWidth={1} />,
-        src: process.env.REACT_APP_INSTAGRAM_URL,
+        src:"https://www.instagram.com/felilozis",
     },
     {
         id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
-        src: process.env.REACT_APP_LINKEDIN_URL,
+        src: "https://www.linkedin.com/in/felicia-lozisnki-silva-76ab1514a/",
     },
  
     {
         id: 3,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <Github size={30} strokeWidth={1} />,
+        src: "https://github.com/Felilozi",
     },
   
 ];

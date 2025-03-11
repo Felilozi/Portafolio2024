@@ -5,8 +5,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 import { dataExtra } from "@/data";
 import Image from "next/image";
-import Avatar from "@/components/avatar";
-import Avatarhabilidad from "@/components/avatar-habilidad";
+
+import Avatarhabilidad from "@/components/avatar/avatar-habilidad";
+import Avatar from "@/components/avatar/avatar";
 
 
 
