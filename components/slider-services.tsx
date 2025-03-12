@@ -7,6 +7,8 @@ import { Swiper, SwiperSlide } from "swiper/react"
 
 const SliderServices = () => {
     return (
+        <>
+        
         <Swiper
             breakpoints={{
                 320: {
@@ -22,13 +24,13 @@ const SliderServices = () => {
                     spaceBetween: 15
                 }
             }}
-            freeMode={true}
-            pagination={{ clickable: true }}
+            freeMode={true}            
+            pagination={{ clickable: true }}            
             modules={[Pagination]}
             className="h-[280px] md:h-[340px] w-[270px] md:w-[550px]"
         >{serviceData.map((item, index) => (
             <SwiperSlide key={index}>
-                <div className="flex px-6 py-6 h-auto md:h-[290px] rounded-lg cursor-pointer bg-[rgba(11,98,90)] sm:flex-col gap-x-6 sm:gap-x-0 group hover:bg-[rgba(11,98,90)] transition-all duration-300 hover:border-secondary border-2">
+                <div className="flex px-6 py-6 h-auto md:h-[290px] rounded-lg cursor-pointer bg-[rgba(11,98,90)] sm:flex-col gap-x-6 sm:gap-x-0 group hover:bg-[rgba(11,98,90)] transition-all duration-300 border-secondary border-2">
                     <div className="mb-4 text-4xl text-secondary">{item.icon}</div>
                     <div>
                         <h3 className="mb-4 text-lg">{item.title}</h3>
@@ -37,7 +39,10 @@ const SliderServices = () => {
                 </div>
             </SwiperSlide>))}
 
+            
+
         </Swiper >
+        </>
 
     )
 }

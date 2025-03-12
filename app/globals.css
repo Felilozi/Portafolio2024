@@ -8,14 +8,14 @@ html, body {
 
 }
 main {
-  background:#1f867f;
+  
   height: 100vh;
   height: 100dvh;
 }
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
   .swiper-pagination-bullet {
-  background-color: #f54257;
+  background-color: #EAAE59;
 }
 
 @layer utilities {
