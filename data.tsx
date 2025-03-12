@@ -301,7 +301,7 @@ export const dataContacto = [
     {
         id: 3,
         logo: <Mail />,
-        description: "felicia.programa@hotmail.com",
+        description: "felicia.programa@gmail.com",
     },
 
 

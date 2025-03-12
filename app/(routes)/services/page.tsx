@@ -24,7 +24,7 @@ const ServicesPage = () => {
                         <span className="font-bold text-secondary"> servicios.
                         </span>
                     </h1>
-                    <p className="mb-3 text-gray-300 "> Ofrezco servicios de desarrollo web frontend especializados en la creación de sitios web y aplicaciones atractivas y funcionales. Utilizando las últimas tecnologías, diseño interfaces de usuario intuitivas y responsivas que reflejan la identidad de marca de mis clientes y mejoran su presencia en línea.
+                    <p className="mb-3 text-gray-300 "> Brindo soluciones especializadas en desarrollo web frontend, creando sitios web y aplicaciones visualmente atractivas y altamente funcionales. Con un enfoque en la última tecnología, diseño interfaces intuitivas y responsivas que fortalecen la identidad de marca de mis clientes y optimizan su presencia digital.
                     </p>
                     <Link href='/contacto' className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/50 ">Contacta conmigo</Link>
 
