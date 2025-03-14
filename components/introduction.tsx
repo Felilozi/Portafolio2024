@@ -6,12 +6,12 @@ const Introduction = () => {
     const GITHUB_URl = process.env.REACT_APP_GITHUB_URL
     return (
         <div className='z-20 w-full '>
-            <h1 className="mx-auto items-center  text-5xl leading-tight text-center ">Desarrolladora  {' '}
+            <h1 className="mx-auto items-center mt-32 md:mt-10 text-5xl leading-tight text-center ">Desarrolladora  {' '}
                 <span className='font-bold text-secondary'>Frontend</span>
             </h1>
-            <div className=' z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2' >
-                <Image src='/home-4.png' priority width="400" height="400" alt="Avatar" />
-                <div className="  flex flex-col justify-center max-w-md">
+            <div className=' z-20 grid items-center h-full p-6 py-20 sm:mx-auto md:py-0 md:grid-cols-2' >
+                <Image src='/home-4.png' priority width="400" height="400" alt="Avatar" className='mx-auto'/>
+                <div className="  flex flex-col justify-center max-w-md  ">
                     <h2 className=" mb-4 text-2xl leading-tight text-center md:text-left
             md:text-4xl md:mb-10">Si te propones
                         <TypeAnimation
