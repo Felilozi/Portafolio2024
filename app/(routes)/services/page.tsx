@@ -18,15 +18,15 @@ const ServicesPage = () => {
             
             
 
-            <div className=" flex flex-col max-w-5xl my-36 mx-auto">
+            <div className=" flex flex-col max-w-[320px] md:max-w-5xl my-36 mx-auto">
                 <div className="">
-                    <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5">Mis
+                    <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl  md:mx-4 md:mb-5">Mis
                         <span className="font-bold text-secondary"> servicios.
                         </span>
                     </h1>
-                    <p className="mb-3 text-gray-300 "> Brindo soluciones especializadas en desarrollo web frontend, creando sitios web y aplicaciones visualmente atractivas y altamente funcionales. Con un enfoque en la última tecnología, diseño interfaces intuitivas y responsivas que fortalecen la identidad de marca de mis clientes y optimizan su presencia digital.
+                    <p className="mb-3 w-[310px] md:mx-4 md:w-10/12 text-gray-300 text-center md:text-left"> Brindo soluciones especializadas en desarrollo web frontend, creando sitios web y aplicaciones visualmente atractivas y altamente funcionales. Con un enfoque en la última tecnología, diseño interfaces intuitivas y responsivas que fortalecen la identidad de marca de mis clientes y optimizan su presencia digital.
                     </p>
-                    <Link href='/contacto' className="px-3 py-2 rounded-lg bg-secondary hover:bg-secondary/50 ">Contacta conmigo</Link>
+                    <Link href='/contacto' className="w-[154px] md:mx-4 mx-[80px] px-3 py-2  rounded-lg bg-secondary hover:bg-secondary/50 ">Contacta conmigo</Link>
 
                 </div>
                 {/* Slider*/}
